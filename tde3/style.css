@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid: 50px auto auto 50px;
+}
+
+.grid-header {
+    background-color: #15202B;
+    color: white;
+    padding-left: 25px;
+    display: inline;
+}
+
+.grid-main {
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.grid-footer {
+    background-color: #15202B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.invisible {
+    visibility: hidden;
+}
